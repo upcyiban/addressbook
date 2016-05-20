@@ -1,4 +1,4 @@
-package cn.edu.upc.yb.adressbook;
+package cn.edu.upc.yb.addressbook;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,9 +7,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = AdressbooksApplication.class)
+@SpringApplicationConfiguration(classes = AddressbookApplication.class)
 @WebAppConfiguration
-public class AdressbooksApplicationTests {
+public class AddressbookApplicationTests {
 
 	@Test
 	public void contextLoads() {
