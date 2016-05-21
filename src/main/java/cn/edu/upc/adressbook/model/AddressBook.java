@@ -1,15 +1,12 @@
-package cn.edu.upc.yb.addressbook.model;
+package cn.edu.upc.adressbook.model;
 
-import org.springframework.data.annotation.Id;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import javax.persistence.*;
 
 /**
- * Created by 易班技术开发部 on 2016/5/20.
+ * Created by yyljj on 2016/5/20.
  */
 @Entity
+@Table(name = "addressbook")
 public class AddressBook {
 
     @Id
@@ -20,7 +17,6 @@ public class AddressBook {
     private String position;
     private String telephone;
     private int value;
-
     public AddressBook(String section, String position, String telephone, int value) {
         this.section = section;
         this.position = position;

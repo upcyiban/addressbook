@@ -1,4 +1,4 @@
-package cn.edu.upc.yb.addressbook;
+package cn.edu.upc.adressbook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

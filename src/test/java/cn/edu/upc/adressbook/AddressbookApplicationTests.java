@@ -1,4 +1,4 @@
-package cn.edu.upc.yb.addressbook;
+package cn.edu.upc.adressbook;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
